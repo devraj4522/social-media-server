@@ -17,7 +17,7 @@ if (!frontendAppUrl) {
 }
 const connectDb = require("./utilsServer/connectDb");
 
-app.use(cors({ origin: "https://social-media-api-git-main-devraj4522.vercel.app", credentials: true }));
+app.use(cors({ origin: "https://social-iota-nine.vercel.app/", credentials: true }));
 app.use(express.json());
 
 const io = new Server(server, {
