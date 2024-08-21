@@ -21,7 +21,7 @@ app.use(cors({ origin: "https://social-iota-nine.vercel.app", credentials: true 
 app.use(express.json());
 
 const io = new Server(server, {
-  cors: { origin: frontendAppUrl }
+  cors: { origin: frontendAppUrl, credentials: true }
   /* options */
 });
 
